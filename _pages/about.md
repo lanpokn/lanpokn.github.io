@@ -11,7 +11,7 @@ I am a first-year Master's student in the Department of Automation at Tsinghua U
 
 I completed my undergraduate studies at Zhejiang University from 2019 to 2023, majoring in Robotics.
 
-My research interests include Event Camera Simulation, Computer Graphics, Computational Photography, and Robotics.
+My research interests include Event Camera, 3D reconstruction, Computational Photography, and Robotics.
 
 Email: [hanhq23@mails.tsinghua.edu.cn](mailto:hanhq23@mails.tsinghua.edu.cn)
 
