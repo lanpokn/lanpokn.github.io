@@ -21,7 +21,7 @@ repository               : "lanpokn/lanpokn.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile3.png"
   name             : "Haiqian Han"
   pronouns         : # example: "she/her"  
   bio              : "A Master's student in Automation at Tsinghua University"
