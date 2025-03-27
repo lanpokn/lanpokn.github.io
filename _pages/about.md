@@ -21,9 +21,9 @@ Email: [hanhq23@mails.tsinghua.edu.cn](mailto:hanhq23@mails.tsinghua.edu.cn)
 
 ## First Author
 
-1. Han H, Lyu J, Li J, et al. Physical-Based Event Camera Simulator[C]//European Conference on Computer Vision. Cham: Springer Nature Switzerland, 2024: 19-35.
+1. Han H, Lyu J, Li J, et al. **Physical-Based Event Camera Simulator**[C]//European Conference on Computer Vision. Cham: Springer Nature Switzerland, 2024: 19-35.
 
-2. Han H, Li J, Wei H, et al. Event-3DGS: Event-based 3D Reconstruction Using 3D Gaussian Splatting[J]. Advances in Neural Information Processing Systems, 2024, 37: 128139-128159.
+2. Han H, Li J, Wei H, et al. **Event-3DGS: Event-based 3D Reconstruction Using 3D Gaussian Splatting**[J]. Advances in Neural Information Processing Systems, 2024, 37: 128139-128159.
 
 ## others
 1. **Active Event-based Stereo Vision** – Paper authored by Jianing Li, Yunjian Zhang, Haiqian Han, and Xiangyang Ji, accepted by the CVPR 2025 Conference.
