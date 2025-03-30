@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year Master's student in the Department of Automation at Tsinghua University. I have the privilege of being advised by Professor Xiangyang Ji.
+I am a second-year Master's student in the Department of Automation at Tsinghua University. I have the privilege of being advised by Professor Xiangyang Ji.
 
 I completed my undergraduate studies at Zhejiang University from 2019 to 2023, majoring in Robotics.
 
-My research interests include Event Camera, 3D reconstruction, Computational Photography, and Robotics.
+I am planning to pursue a Ph.D. in robotics, computer vision, and event-based cameras. Feel free to reach out if you're interested in collaborating or discussing related topics.
 
 Email: [hanhq23@mails.tsinghua.edu.cn](mailto:hanhq23@mails.tsinghua.edu.cn)
 
