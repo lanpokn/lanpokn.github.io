@@ -136,4 +136,8 @@
 {% if site.yandex_site_verification %}
   <meta name="yandex-verification" content="{{ site.yandex_site_verification }}">
 {% endif %}
+
+{% if page.url == "/" %}
+  <meta name="robots" content="max-snippet:-1, max-image-preview:large">
+{% endif %}
 <!-- end SEO -->
