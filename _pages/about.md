@@ -24,16 +24,6 @@ Advisor: Prof. Xiangyang Ji
 
 ---
 
-## Experience
-
-**Research Intern**, CNRS Singapore | *2024 – Present*
-Working on learning-based lens flare removal for event cameras. Developed the first physics-driven simulator for event camera lens flare and proposed Event-DeFlare, a 3D U-Net framework for flare removal.
-
-**Intern**, Changan Automobile | *2023*
-Investigated dehazing algorithms and developed active sampling techniques for all-in-one image restoration. Studied physical principles of lens flare for improved simulation.
-
----
-
 ## Publications
 
 **First Author**
@@ -45,3 +35,13 @@ Investigated dehazing algorithms and developed active sampling techniques for al
 **Co-authored**
 
 3. Li J, Zhang Y, Han H, Ji X. **Active Event-based Stereo Vision**. *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2025.
+
+---
+
+## Experience
+
+**Research Intern**, CNRS Singapore | *2025 – Present*
+Working on learning-based lens flare removal for event cameras. Developed the first physics-driven simulator for event camera lens flare and proposed Event-DeFlare, a 3D U-Net framework for flare removal.
+
+**Intern**, Changan Automobile | *2024 – 2025*
+Investigated dehazing algorithms and developed active sampling techniques for all-in-one image restoration. Studied physical principles of lens flare for improved simulation.
