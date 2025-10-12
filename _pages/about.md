@@ -15,11 +15,11 @@ I am a Master's student at Tsinghua University, working on computer vision and e
 
 ## Education
 
-**M.S. in Automation**, Tsinghua University, Beijing
+M.S. in Automation, **Tsinghua University**, Beijing
 *2023 – 2026 (Expected)*
 Advisor: Prof. Xiangyang Ji
 
-**B.Eng. in Robotics**, Zhejiang University, Hangzhou
+B.Eng. in Robotics, **Zhejiang University**, Hangzhou
 *2019 – 2023*
 
 ---
