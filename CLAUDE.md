@@ -1,9 +1,33 @@
-# Project Overview
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project Overview
 
 Personal academic homepage for Haiqian Han, a Master's student at Tsinghua University researching computer vision and event-based cameras.
 
 **Live Site**: https://lanpokn.github.io/
 **Tech Stack**: Jekyll, GitHub Pages, Academic Pages template
+
+---
+
+## Local Development
+
+```bash
+# Install dependencies
+bundle install
+
+# Serve locally with live reload (uses hawkins gem)
+bundle exec jekyll liveserve
+
+# Or standard serve
+bundle exec jekyll serve
+
+# Build only
+bundle exec jekyll build
+```
+
+Site runs at `http://localhost:4000` by default.
 
 ---
 
@@ -15,32 +39,11 @@ Personal academic homepage for Haiqian Han, a Master's student at Tsinghua Unive
 
 ---
 
-## Project Structure
-
-```
-├── _config.yml           # Site configuration
-├── _data/
-│   └── navigation.yml    # All navigation links are commented out
-├── _pages/
-│   └── about.md          # MAIN CONTENT (permalink: /)
-├── _includes/
-│   └── seo.html          # Modified to prevent Google sitelinks
-├── _publications/        # Not displayed (collections disabled)
-├── _talks/               # Not displayed (collections disabled)
-├── _teaching/            # Not displayed (collections disabled)
-└── _portfolio/           # Not displayed (collections disabled)
-```
-
----
-
 ## Key Configuration
 
 ### 1. Collections Disabled (`_config.yml:211-223`)
 All Jekyll collections have `output: false` to prevent generating individual pages:
-- teaching
-- publications
-- portfolio
-- talks
+- teaching, publications, portfolio, talks
 
 ### 2. Navigation Stripped (`_data/navigation.yml`)
 All navigation links are commented out. Only the homepage is accessible.
@@ -50,45 +53,27 @@ Added robots meta tag to discourage Google from showing sitelinks in search resu
 
 ---
 
-## Content Guidelines
+## Homepage Structure (`_pages/about.md`)
 
-### Homepage Structure (`_pages/about.md`)
-
-**Current sections** (in order):
-1. **Brief intro** - One paragraph: current position, research focus, Ph.D. seeking status
+Sections in order:
+1. **Brief intro** - Current position, research focus, Ph.D. seeking status
 2. **Education** - Degree, institution, years (reverse chronological)
 3. **Publications** - Separated into "First Author" and "Co-authored"
 4. **Experience** - Internships (reverse chronological)
 
-**Writing style**:
-- Direct and concise
-- No lengthy descriptions
-- Professional academic tone
-- No placeholder text or template comments
+Publication format:
+```markdown
+Author names. **Paper Title**. *Conference/Journal Name*, Year: Pages.
+```
+
+Contact info lives in two places: `_pages/about.md` (email line) and `_config.yml` (author section).
 
 ---
 
 ## Deleted Pages
 
 **DO NOT recreate these pages**:
-
-- `/cv/` - Intentionally deleted (commit 075152b). If Google shows it in search results, this is expected and will resolve naturally as Google re-crawls.
-
----
-
-## Common Tasks
-
-### Update Publications
-Edit `_pages/about.md`, publications section. Format:
-```markdown
-Author names. **Paper Title**. *Conference/Journal Name*, Year: Pages.
-```
-
-### Update Experience
-Edit `_pages/about.md`, experience section. Keep descriptions to 1-2 sentences focusing on key outcomes.
-
-### Change Contact Info
-Edit `_pages/about.md` (email line) and `_config.yml` (author section).
+- `/cv/` - Intentionally deleted (commit 075152b).
 
 ---
 
@@ -104,14 +89,6 @@ Edit `_pages/about.md` (email line) and `_config.yml` (author section).
 
 ## Site Deployment
 
-Push to `master` branch → GitHub Pages automatically builds and deploys.
+Push to `master` branch → GitHub Pages automatically builds and deploys (~2 minutes).
 
-Build time: ~2 minutes
-
----
-
-## Search Engine Behavior
-
-**Expected**: Google may show outdated links (CV, collections) for 1-4 weeks after deletion. This is normal and will self-correct.
-
-**Solution**: Wait for natural re-indexing, or use Google Search Console to request removal.
+**Expected**: Google may show outdated links (CV, collections) for 1-4 weeks after deletion. Wait for natural re-indexing, or use Google Search Console to request removal.

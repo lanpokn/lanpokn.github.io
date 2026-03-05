@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's student at Tsinghua University, working on computer vision and event-based cameras with Professor Xiangyang Ji. My research focuses on event camera simulation, 3D reconstruction, and optical artifact removal. I am seeking Ph.D. opportunities starting in Fall 2026.
+I am a Master's student at Tsinghua University in the [THU-IDM](https://www.thuidm.com/) group, working on computer vision and event-based cameras with Professor Xiangyang Ji. My research focuses on event camera simulation, 3D reconstruction, and optical artifact removal. I am seeking Ph.D. opportunities starting in Fall 2026.
 
 **Email**: [hanhq23@mails.tsinghua.edu.cn](mailto:hanhq23@mails.tsinghua.edu.cn)
 

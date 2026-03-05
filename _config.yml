@@ -10,8 +10,8 @@
 locale                   : "en-US"
 title                    : "Haiqian Han"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Haiqian Han"
+description              : &description "Personal academic homepage of Haiqian Han, Master's student at Tsinghua University"
 url                      : https://lanpokn.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lanpokn/lanpokn.github.io"
@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "A Master's student in Automation at Tsinghua University"
   location         : "Beijing, China"
-  employer         : "xx"
+  employer         : # remove placeholder
   uri              : # URL
   email            : "hanhq23@mails.tsinghua.edu.cn"
 
