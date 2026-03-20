@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's student at Tsinghua University in the [THU-IDM](https://www.thuidm.com/) group, working on computer vision and event-based cameras with Professor Xiangyang Ji. My research focuses on event camera simulation, 3D reconstruction, and optical artifact removal.
+I am a M.Sc. student in Control Science and Engineering at Tsinghua University, supervised by Prof. Xiangyang Ji. My research focuses on bio-inspired cameras. I have published at ECCV 2024 and NeurIPS 2024, with work accepted at CVPR 2025.
 
 **Email**: [hanhq23@mails.tsinghua.edu.cn](mailto:hanhq23@mails.tsinghua.edu.cn)
 
@@ -45,5 +45,3 @@ B.Eng. in Robotics, **Zhejiang University**, Hangzhou
 **Research Intern**, CNRS Singapore | *2025 – Present*
 Working on learning-based lens flare removal for event cameras. Developed the first physics-driven simulator for event camera lens flare and proposed Event-DeFlare, a 3D U-Net framework for flare removal.
 
-**Intern**, Changan Automobile | *2024 – 2025*
-Investigated dehazing algorithms and developed active sampling techniques for all-in-one image restoration. Studied physical principles of lens flare for improved simulation.
