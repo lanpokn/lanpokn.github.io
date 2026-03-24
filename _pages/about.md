@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a M.Sc. student in Control Science and Engineering at Tsinghua University, supervised by Prof. Xiangyang Ji. My research focuses on bio-inspired cameras. I have published at ECCV 2024 and NeurIPS 2024, with work accepted at CVPR 2025.
+I am a M.Sc. student in Control Science and Engineering at Tsinghua University, supervised by Prof. Xiangyang Ji. My research focuses on bio-inspired cameras. I have published at ECCV 2024 and NeurIPS 2024, with work accepted at CVPR 2025 and TPAMI 2026.
 
 **Email**: [hanhq23@mails.tsinghua.edu.cn](mailto:hanhq23@mails.tsinghua.edu.cn)
 
@@ -36,7 +36,9 @@ B.Eng. in Robotics, **Zhejiang University**, Hangzhou
 
 **Co-authored**
 
-4. Li J, Zhang Y, Han H, Ji X. **Active Event-based Stereo Vision**. *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2025.
+4. Li J, Zhang Y, Han H, Huang K, Ji X. **Towards Ultrafast Depth Sensing Via Active Event-Based Stereo Vision**. *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2026.
+
+5. Li J, Zhang Y, Han H, Ji X. **Active Event-based Stereo Vision**. *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2025.
 
 ---
 
