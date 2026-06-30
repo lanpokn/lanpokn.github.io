@@ -349,9 +349,13 @@ a:hover {
   font-weight: 600;
 }
 
-.authors strong {
+.authors .me {
   color: var(--marker);
-  font-weight: 850;
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 204, 0.35);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.16em;
 }
 
 .venue {
