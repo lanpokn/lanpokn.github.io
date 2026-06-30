@@ -28,17 +28,19 @@
 }
 
 html {
-  background: #fff;
+  background: #fbfbff;
   color: var(--text);
   font-size: 16px;
 }
 
 body {
   margin: 0;
-  background: #fff;
+  background:
+    linear-gradient(90deg, rgba(0, 0, 204, 0.035), rgba(0, 0, 204, 0) 360px),
+    #fbfbff;
   color: var(--text);
   font-family: var(--serif);
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.24;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -56,16 +58,30 @@ a:hover {
 }
 
 .cv-page {
-  width: min(1040px, calc(100% - 48px));
+  display: grid;
+  grid-template-columns: minmax(286px, 25%) minmax(0, 1fr);
+  column-gap: clamp(34px, 5.2vw, 76px);
+  width: min(1480px, calc(100% - 56px));
+  min-height: 100vh;
   margin: 0 auto;
-  padding: 96px 0 120px;
+  padding: 0;
 }
 
-.cv-header {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 210px;
-  column-gap: 58px;
-  align-items: start;
+.profile-panel {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: 100vh;
+  height: 100svh;
+  padding: 48px 28px 44px 0;
+  border-right: 1px solid rgba(0, 0, 204, 0.13);
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+.cv-content {
+  max-width: 980px;
+  padding: 56px 0 112px;
 }
 
 .identity {
@@ -74,39 +90,43 @@ a:hover {
 
 .name-line {
   display: flex;
-  align-items: baseline;
-  gap: 18px;
-  margin: 0 0 14px;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  margin: 0 0 18px;
   font-family: var(--sans);
 }
 
 .name {
-  font-size: 32px;
+  margin: 0;
+  font-size: 36px;
   line-height: 1;
   font-weight: 800;
   letter-spacing: 0;
 }
 
 .role {
-  font-size: 21px;
+  color: #222;
+  font-size: 22px;
   font-weight: 800;
 }
 
 .contact-row {
   display: flex;
-  flex-wrap: wrap;
-  gap: 46px;
-  align-items: center;
-  margin-bottom: 32px;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  margin-bottom: 28px;
   font-family: var(--serif);
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .field {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  white-space: nowrap;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .fa {
@@ -120,26 +140,44 @@ a:hover {
 }
 
 .about-block {
-  max-width: 800px;
+  max-width: 100%;
   margin-top: 10px;
 }
 
 .label {
   color: var(--marker);
   font-family: var(--sans);
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 800;
 }
 
 .about-block p {
-  margin: 2px 0 28px;
+  margin: 3px 0 18px;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 8px;
+  margin: -4px 0 24px;
+  color: #0066d9;
+  font-family: var(--sans);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.profile-links span {
+  color: #777;
+  font-weight: 500;
 }
 
 .interest-line {
   margin-top: 2px;
   font-family: var(--sans);
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 800;
+  line-height: 1.35;
 }
 
 .interest-violet {
@@ -154,16 +192,25 @@ a:hover {
   color: var(--green);
 }
 
+.interest-royal {
+  color: var(--royal);
+}
+
 .portrait {
-  width: 210px;
-  height: 232px;
-  margin-top: 42px;
+  display: block;
+  width: min(220px, 82%);
+  aspect-ratio: 210 / 232;
+  margin: 0 0 30px;
   object-fit: cover;
   object-position: center;
 }
 
 .section {
   margin-top: 58px;
+}
+
+.first-section {
+  margin-top: 0;
 }
 
 .section.compact {
@@ -285,7 +332,7 @@ a:hover {
 
 .pub-meta {
   display: grid;
-  grid-template-columns: 34px minmax(0, 1fr) auto;
+  grid-template-columns: 34px minmax(0, 1fr) minmax(230px, 0.9fr);
   column-gap: 11px;
   align-items: baseline;
   margin-bottom: 8px;
@@ -303,6 +350,7 @@ a:hover {
 }
 
 .venue {
+  min-width: 0;
   font-family: var(--sans);
   font-size: 21px;
   font-weight: 850;
@@ -434,25 +482,44 @@ strong {
   font-weight: 850;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 980px) {
   body {
     font-size: 18px;
+    background: #fbfbff;
   }
 
   .cv-page {
+    display: block;
     width: min(100% - 28px, 720px);
-    padding: 42px 0 72px;
+    padding: 34px 0 72px;
   }
 
-  .cv-header {
-    grid-template-columns: 1fr;
+  .profile-panel {
+    position: static;
+    height: auto;
+    padding: 0 0 34px;
+    border-right: 0;
+    border-bottom: 1px solid rgba(0, 0, 204, 0.15);
+    overflow: visible;
+  }
+
+  .cv-content {
+    max-width: none;
+    padding: 34px 0 0;
+  }
+
+  .name-line {
+    margin-bottom: 14px;
+  }
+
+  .name {
+    font-size: 32px;
   }
 
   .portrait {
-    order: -1;
     width: 160px;
     height: 176px;
-    margin: 0 0 26px;
+    margin: 0 0 24px;
   }
 
   .contact-row {
@@ -509,7 +576,19 @@ strong {
   }
 
   .cv-page {
+    display: block;
     width: auto;
+  }
+
+  .profile-panel {
+    position: static;
+    height: auto;
+    padding: 0;
+    border-right: 0;
+  }
+
+  .cv-content {
+    max-width: none;
     padding: 0;
   }
 

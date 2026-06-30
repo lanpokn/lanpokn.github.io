@@ -10,11 +10,13 @@
 </head>
 <body>
   <main class="cv-page" aria-label="Curriculum vitae">
-    <header class="cv-header">
+    <aside class="profile-panel" aria-label="Profile">
+      <img class="portrait" src="assets/cv/profile.png" alt="Haiqian Han portrait">
+
       <div class="identity">
         <div class="name-line">
           <h1 class="name">Haiqian Han</h1>
-          <div class="role">M.Sc. Student</div>
+          <div class="role">Ph.D. Student</div>
         </div>
 
         <div class="contact-row">
@@ -30,21 +32,30 @@
 
         <div class="about-block">
           <div class="label">About:</div>
-          <p>I am a M.Sc. student at Tsinghua University, supervised by <strong>Prof. Xiangyang Ji</strong>. My research focuses on bio-inspired cameras and fundamental computer vision science. I have published some papers, all with open-source code.</p>
+          <p>I am a Ph.D. student in Computer Science at Northwestern University, advised by <strong>Prof. Emma Alexander</strong>. Previously, I received my M.Sc. degree from Tsinghua University, where I was supervised by <strong>Prof. Xiangyang Ji</strong>, and my B.Eng. degree from Zhejiang University. My research interests include bio-inspired vision, computational imaging, and computer vision. I have published several papers with open-source code.</p>
+          <p>I am always happy to discuss research ideas and possible collaborations, so feel free to reach out.</p>
+
+          <nav class="profile-links" aria-label="Important links">
+            <a href="https://scholar.google.com/citations?user=RyYlulcAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">Google Scholar</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://github.com/lanpokn" target="_blank" rel="noopener">GitHub</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://www.linkedin.com/in/haiqian-han-b22921378/" target="_blank" rel="noopener">LinkedIn</a>
+          </nav>
 
           <div class="label">Research Interests:</div>
           <div class="interest-line">
             <span class="interest-violet">Computational Imaging;</span>
             <span class="interest-magenta">Bio-inspired Cameras;</span>
-            <span class="interest-green">Simulation</span>
+            <span class="interest-green">Simulation;</span>
+            <span class="interest-royal">Computer Vision</span>
           </div>
         </div>
       </div>
+    </aside>
 
-      <img class="portrait" src="assets/cv/profile.png" alt="Haiqian Han portrait">
-    </header>
-
-    <section class="section" aria-labelledby="education-heading">
+    <div class="cv-content">
+    <section class="section first-section" aria-labelledby="education-heading">
       <h2 class="section-heading" id="education-heading">
         <span class="fa heading-icon" aria-hidden="true">&#xf19d;</span>
         <span>Education</span>
@@ -293,6 +304,7 @@
         </div>
       </div>
     </section>
+    </div>
   </main>
 </body>
 </html>
