@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a M.Sc. student in Control Science and Engineering at Tsinghua University, supervised by Prof. Xiangyang Ji. My research focuses on bio-inspired cameras. I have published at ECCV 2024 and NeurIPS 2024, with work accepted at CVPR 2025, TPAMI 2026, and ECCV 2026.
+I am a M.Eng. student in Control Science and Engineering at Tsinghua University, supervised by Prof. Xiangyang Ji. My research focuses on bio-inspired cameras. I have published at ECCV 2024 and NeurIPS 2024, with work accepted at CVPR 2025, TPAMI 2026, and ECCV 2026.
 
 **Email**: [haiqianhan2031@u.northwestern.edu](mailto:haiqianhan2031@u.northwestern.edu)
 
@@ -15,7 +15,7 @@ I am a M.Sc. student in Control Science and Engineering at Tsinghua University, 
 
 ## Education
 
-M.S. in Automation, **Tsinghua University**, Beijing
+M.Eng. in Automation, **Tsinghua University**, Beijing
 *2023 – 2026 (Expected)*
 Advisor: Prof. Xiangyang Ji
 

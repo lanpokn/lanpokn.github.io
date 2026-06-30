@@ -349,6 +349,11 @@ a:hover {
   font-weight: 600;
 }
 
+.authors strong {
+  color: var(--marker);
+  font-weight: 850;
+}
+
 .venue {
   min-width: 0;
   font-family: var(--sans);
