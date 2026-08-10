@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a M.Eng. student in Control Science and Engineering at Tsinghua University, supervised by Prof. Xiangyang Ji. My research focuses on bio-inspired cameras. I have published at ECCV 2024 and NeurIPS 2024, with work accepted at CVPR 2025, TPAMI 2026, and ECCV 2026.
+I am a M.Eng. student in Control Science and Engineering at Tsinghua University, supervised by Prof. Xiangyang Ji. My research focuses on bio-inspired cameras. My work includes first-author work at ECCV 2024, NeurIPS 2024, and WACV 2027, as well as co-authored work at CVPR 2025, TPAMI 2026, and ECCV 2026.
 
 **Email**: [haiqianhan2031@u.northwestern.edu](mailto:haiqianhan2031@u.northwestern.edu)
 
@@ -28,7 +28,7 @@ B.Eng. in Robotics, **Zhejiang University**, Hangzhou
 
 **First Author**
 
-1. Han H, Kong L, Li J, et al. **Learning to Remove Lens Flare in Event Camera**. *arXiv preprint arXiv:2512.09016*, 2025.
+1. Han H, Kong L, Li J, et al. **Learning to Remove Lens Flare in Event Camera**. *Accepted to IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)*, 2027.
 
 2. Han H, Li J, Wei H, et al. **Event-3DGS: Event-based 3D Reconstruction Using 3D Gaussian Splatting**. *Advances in Neural Information Processing Systems (NeurIPS)*, 2024, 37: 128139-128159.
 
