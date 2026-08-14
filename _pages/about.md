@@ -32,7 +32,7 @@ B.Eng. in Robotics, **Zhejiang University**, Hangzhou
 
 2. Han H, Lyu J, Li J, et al. **Physical-Based Event Camera Simulator**. *European Conference on Computer Vision (ECCV)*, 2024: 19-35.
 
-3. Han H, Kong L, Li J, et al. **Learning to Remove Lens Flare in Event Camera**. *Accepted to IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)*, 2027.
+3. Han H, Kong L, Li J, Zhu C, Lyu J, et al. **Learning to Remove Lens Flare in Event Camera**. *Accepted to IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)*, 2027.
 
 **Co-authored**
 
