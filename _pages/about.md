@@ -28,11 +28,11 @@ B.Eng. in Robotics, **Zhejiang University**, Hangzhou
 
 **First Author**
 
-1. Han H, Kong L, Li J, et al. **Learning to Remove Lens Flare in Event Camera**. *Accepted to IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)*, 2027.
+1. Han H, Li J, Wei H, et al. **Event-3DGS: Event-based 3D Reconstruction Using 3D Gaussian Splatting**. *Advances in Neural Information Processing Systems (NeurIPS)*, 2024, 37: 128139-128159.
 
-2. Han H, Li J, Wei H, et al. **Event-3DGS: Event-based 3D Reconstruction Using 3D Gaussian Splatting**. *Advances in Neural Information Processing Systems (NeurIPS)*, 2024, 37: 128139-128159.
+2. Han H, Lyu J, Li J, et al. **Physical-Based Event Camera Simulator**. *European Conference on Computer Vision (ECCV)*, 2024: 19-35.
 
-3. Han H, Lyu J, Li J, et al. **Physical-Based Event Camera Simulator**. *European Conference on Computer Vision (ECCV)*, 2024: 19-35.
+3. Han H, Kong L, Li J, et al. **Learning to Remove Lens Flare in Event Camera**. *Accepted to IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)*, 2027.
 
 **Co-authored**
 
