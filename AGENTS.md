@@ -15,15 +15,15 @@ The site has been intentionally simplified from the Academic Pages template. Tre
 ## Core Site Constraint
 
 This is a single-entry homepage site. The live root page `/` is currently served by
-the static `index.html` in the repository root. Do not assume that changing
-`_pages/about.md` changes the live homepage: `_pages/about.md` is a legacy/alternate
-Jekyll page in the current repository, while `index.html` is the actual deployed
-entry point.
+the static `index.html` in the repository root. `_pages/about.md` is an effectively
+retired legacy page: it is not displayed on the current site, and edits to it do not
+change the live homepage. Although it remains in the repository and still declares
+`permalink: /`, do not treat it as an active entry point or a source of truth.
 
-Keep the complete homepage content in the active entry point. When changing profile
-or publication information, inspect and update `index.html` first, then check
-`_pages/about.md` for stale duplicate content so the two files do not contradict
-each other.
+Keep the complete homepage content in `index.html`. Make homepage profile,
+publication, education, and experience changes there. Do not update
+`_pages/about.md` for routine homepage work unless the user explicitly asks to
+maintain or remove the legacy file.
 
 Do not create or restore multi-page structures unless the user explicitly asks to reverse the current site direction. In particular:
 
@@ -36,15 +36,17 @@ Do not create or restore multi-page structures unless the user explicitly asks t
 ## Key Files
 
 - `index.html`: current live homepage and primary source for the rendered `/` page.
-- `_pages/about.md`: legacy/alternate Jekyll homepage content; keep it consistent
-  with `index.html` when the same profile or publication information appears there.
+- `_pages/about.md`: effectively retired legacy content that is not displayed on the
+  current site; it is not an authoritative duplicate of `index.html`.
 - `_config.yml`: site-wide Jekyll config and author metadata.
 - `_data/navigation.yml`: header navigation, intentionally stripped/commented.
 - `_includes/seo.html`: includes a robots meta change intended to reduce search sitelinks.
 - `CLAUDE.md`: prior agent guidance and historical context.
 - `README.md`: upstream Academic Pages documentation; useful for generic Jekyll setup, but not authoritative for this site's simplified design.
 
-Contact information appears in both `_pages/about.md` and the author section of `_config.yml`; keep them consistent when editing contact details.
+For visible homepage contact details, update `index.html`. Also update the author
+metadata in `_config.yml` when the same contact field appears there. Do not use the
+stale contact copy in `_pages/about.md` as an authoritative value.
 
 ## Required Profile Information
 
