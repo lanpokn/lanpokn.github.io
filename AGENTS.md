@@ -14,9 +14,16 @@ The site has been intentionally simplified from the Academic Pages template. Tre
 
 ## Core Site Constraint
 
-This is a single-entry homepage site.
+This is a single-entry homepage site. The live root page `/` is currently served by
+the static `index.html` in the repository root. Do not assume that changing
+`_pages/about.md` changes the live homepage: `_pages/about.md` is a legacy/alternate
+Jekyll page in the current repository, while `index.html` is the actual deployed
+entry point.
 
-All meaningful content should remain on `_pages/about.md`, which is served at `/`.
+Keep the complete homepage content in the active entry point. When changing profile
+or publication information, inspect and update `index.html` first, then check
+`_pages/about.md` for stale duplicate content so the two files do not contradict
+each other.
 
 Do not create or restore multi-page structures unless the user explicitly asks to reverse the current site direction. In particular:
 
@@ -28,7 +35,9 @@ Do not create or restore multi-page structures unless the user explicitly asks t
 
 ## Key Files
 
-- `_pages/about.md`: homepage content and main profile sections.
+- `index.html`: current live homepage and primary source for the rendered `/` page.
+- `_pages/about.md`: legacy/alternate Jekyll homepage content; keep it consistent
+  with `index.html` when the same profile or publication information appears there.
 - `_config.yml`: site-wide Jekyll config and author metadata.
 - `_data/navigation.yml`: header navigation, intentionally stripped/commented.
 - `_includes/seo.html`: includes a robots meta change intended to reduce search sitelinks.
@@ -37,14 +46,40 @@ Do not create or restore multi-page structures unless the user explicitly asks t
 
 Contact information appears in both `_pages/about.md` and the author section of `_config.yml`; keep them consistent when editing contact details.
 
+## Required Profile Information
+
+Do not remove or silently replace the following important facts when simplifying or
+rewriting the homepage:
+
+- Ph.D. student in Computer Science at Northwestern University, advised by Prof.
+  Emma Alexander.
+- M.Eng. in Control Science and Engineering at Tsinghua University, supervised by
+  Prof. Xiangyang Ji.
+- B.Eng. from Zhejiang University.
+- Research interests in bio-inspired vision/cameras, computational imaging,
+  simulation, and computer vision.
+- Current contact email: `haiqianhan2031@u.northwestern.edu`.
+
+Preserve the education, publication, research, internship, teaching, awards, and
+skills sections already present in `index.html` unless the user explicitly asks to
+remove or replace them. In particular, do not replace the full CV-style homepage
+with the shorter `_pages/about.md` content merely to simplify the site.
+
 ## Homepage Content Pattern
 
-Maintain the current concise academic CV style. The homepage sections are ordered as:
+Maintain the current concise academic CV style. The homepage sections in `index.html`
+are ordered as:
 
-1. Brief intro
+1. Profile/About and research interests
 2. Education
 3. Publications
-4. Experience
+4. Internship Experience
+5. Teaching Assistant
+6. Awards & Achievements
+7. Skills
+
+Preserve this full CV-style structure unless the user explicitly requests a
+different homepage design.
 
 Use reverse chronological ordering for education and experience.
 
